@@ -18,5 +18,7 @@ for filename in os.listdir(path):
     img = Image.open(f'{path}{filename}')
     img.save(f'{directory}/{clean_name}.png', 'png')
     print('all done!')
-# >python JPGtoPNGconverter.py Pokedex\ new\
+    
+# access it in cmd line as : 
+# python JPGtoPNGconverter.py Pokedex\ new\
 
